@@ -10,7 +10,7 @@ function App() {
     editable: false
   });
   useEffect(() => {
-    fetch(" http://www.json-generator.com/api/json/get/coJwhddnNe")
+    fetch(" https://www.json-generator.com/api/json/get/coJwhddnNe")
       .then(res => res.json())
       .then(res => setStories(res));
   }, []);
